@@ -1,77 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Project coffee-shop</title>
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header--navbar">
-                    <div class="header--navbar_logo">
-                        <a>
-                            <img src="images/logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a>Каталог товаров</a>
-                            </li>
-                            <li>
-                                <a>Блог</a>
-                            </li>
-                            <li>
-                                <a>Контакты</a>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <a>
-                                    <img src="images/search.svg" alt="search">
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <img src="images/cart.svg" alt="cart">
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <img src="images/user.svg" alt="user">
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header--block">
-                    <h1>Свежеобжаренный кофе</h1>
-                    <p>
-                        Кофе Калининградской обжарки из разных стран произрастания с доставкой на дом. 
-                    </p>
-                    <p>
-                        Мы обжариваем кофе каждые выходные.
-                    </p>
-                    <a>Посмотреть каталог</a>
+  <body>
+      
+    <header class="header container">
 
-                </div>
-            </div>
-        </header>
-
+<div class="header__column header__column--1">
+    <img src="svg/logo.svg" alt="" class="header__logo">
+</div>
+<div class="header__column header__column--2">
+    <div class="header__nav-wrapper">
+        <input type="text" class="header__nav" placeholder="Введите значения">
     </div>
 
-<main class="s-main">
+   
+</div>
 
- 
-</main>
+<div class="header__column header__column--3">
+    <a href="#" class="header__button">
+        <img src="svg/icons/cart.svg" alt="">
+    </a>
+    <a href="#" class="header__button">
+        <img src="svg/icons/profile.svg" alt="">
+    </a>
+</div>
 
-<footer class="footer">
+    </header>
 
-</footer>
+    <main class="s-main">
 
-</body>
+    </main>
 
+    <footer class="footer">
+
+    </footer>
+
+  </body>
 </html>

@@ -130,7 +130,7 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1380px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -412,6 +412,9 @@ h3 {
 }
 .checkbox-radio__text--checkbox {
   padding-left: 30px;
+}
+.checkbox-radio__text:hover {
+  text-decoration: none;
 }
 .checkbox-radio__input + .checkbox-radio__text:before {
   box-sizing: border-box;
@@ -785,6 +788,40 @@ h3 {
 }
 /* --- Main ---*/
 /* ---------------- Header ---------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.header__column--2 {
+  width: 62%;
+}
+.header__column--3 {
+  display: flex;
+}
+.header__button:not(:last-child) {
+  margin-right: 53px;
+}
+.header__nav-wrapper {
+  position: relative;
+}
+.header__nav-wrapper::after {
+  content: url(../../svg/icons/search.svg);
+  position: absolute;
+  left: 30px;
+  top: 14px;
+}
+.header__nav {
+  width: 100%;
+  height: 62px;
+  padding-left: 82px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(157, 157, 157, 0.25);
+  border-radius: 30px;
+}
 /* #m1300 */
 /* #m1200 */
 /* #m1100 */
