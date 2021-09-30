@@ -8,6 +8,7 @@ body {
     color: @c-text;
 
     line-height: 1.45;
+    overflow: hidden;
 }
 
 .s-main {
@@ -255,6 +256,13 @@ h1, h2, h3 {
     flex-direction: column;
 }
 
+.bg-1{
+    position: absolute;
+    top: 0;
+    right: -65px;
+    z-index:-1;
+}
+
 /* ---------------- Buttons ---------------- */
 
 .button {
@@ -262,26 +270,24 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
 
-    width: 126px;
-    height: 42px;
+    width: 400px;
+    height: 80px;
 
     position: relative;
 
-    border: 1px solid black;
-    border-radius: 25px;
+    
 
     font-family: @font-r;
-    font-size: 14px;
-    color: black;
-    letter-spacing: 0.5px;
+    font-size: 30px;
+    color: #fff;
+    background: #F9B300;
 
-    text-transform: uppercase;
     text-align: center;
 
     cursor: pointer;
 
     &:hover {
-        background: gray;
+        background: #e2a300;
         color: white;
         text-decoration: none;
     }

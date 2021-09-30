@@ -8,38 +8,78 @@
   </head>
 
   <body>
-      
+
+    <img src="svg/bg-1.svg" alt="" class="bg-1">
     <header class="header container">
+      <div class="header__column header__column--1">
+        <img src="svg/logo.svg" alt="" class="header__logo" />
+      </div>
+      <div class="header__column header__column--2">
+        <div class="header__list">
+          <a href="" class="header__item">Каталог товаров</a>
+          <a href="" class="header__item">Блог</a>
+          <a href="" class="header__item">Контакты</a>
+        </div>
 
-<div class="header__column header__column--1">
-    <img src="svg/logo.svg" alt="" class="header__logo">
-</div>
-<div class="header__column header__column--2">
-    <div class="header__nav-wrapper">
-        <input type="text" class="header__nav" placeholder="Введите значения">
-    </div>
+        <div class="header__nav-wrapper">
+          <input
+            type="text"
+            class="header__nav"
+            value=""
+            placeholder="Введите значения"
+          />
+        </div>
+      </div>
 
-   
-</div>
-
-<div class="header__column header__column--3">
-    <a href="#" class="header__button">
-        <img src="svg/icons/cart.svg" alt="">
-    </a>
-    <a href="#" class="header__button">
-        <img src="svg/icons/profile.svg" alt="">
-    </a>
-</div>
-
+      <div class="header__column header__column--3">
+        <a href="#" class="header__button">
+          <img src="svg/icons/search-header.svg" alt="" />
+        </a>
+        <a href="#" class="header__button">
+          <img src="svg/icons/cart.svg" alt="" />
+        </a>
+        <a href="#" class="header__button">
+          <img src="svg/icons/profile.svg" alt="" />
+        </a>
+      </div>
     </header>
 
     <main class="s-main">
+      <div class="slider container">
+        <div class="slider__wrapper">
+          <div class="slider__item">
+            <div class="slider__columns">
+              <div class="slider__column slider__column--1">
+                <h4 class="slider__title">Свежеобжаренный кофе</h4>
+                <p class="slider__text">
+                  Кофе Калининградской обжарки из разных стран произрастания с
+                  доставкой на дом.
+                  <br />
+                  <br />
+                  Мы обжариваем кофе каждые выходные.
+                </p>
 
+                <button class="button slider__button">
+                  Посмотреть каталог
+                </button>
+              </div>
+
+              <div class="slider__column slider__column--2">
+                <img src="img/slider-coffe.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="slider__dots">
+            <a href="#" class="slider__dot active"></a>
+            <a href="#" class="slider__dot"></a>
+            <a href="#" class="slider__dot"></a>
+        </div>
+      </div>
     </main>
 
-    <footer class="footer">
-
-    </footer>
-
+    <footer class="footer"></footer>
   </body>
 </html>
